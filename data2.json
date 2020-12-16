@@ -1,0 +1,55 @@
+[
+    {
+        "categorie": "MSU-2017", 
+        "values": [
+            {
+                "value": 10, 
+                "rate": "Europe"
+            }, 
+            {
+                "value": 0, 
+                "rate": "America"
+            }
+
+        ]
+    }, 
+    {
+        "categorie": "UOS-2017", 
+        "values": [
+            {
+                "value": 10, 
+                "rate": "Europe"
+            }, 
+            {
+                "value": 0, 
+                "rate": "America"
+            }
+        ]
+    },
+    {
+        "categorie": "MSU-2020", 
+        "values": [
+            {
+                "value": 4, 
+                "rate": "Europe"
+            }, 
+            {
+                "value": 4, 
+                "rate": "America"
+            }
+        ]
+    },
+    {
+        "categorie": "UOS-2020", 
+        "values": [
+            {
+                "value": 10, 
+                "rate": "Europe"
+            }, 
+            {
+                "value": 0, 
+                "rate": "America"
+            }
+        ]
+    }
+]

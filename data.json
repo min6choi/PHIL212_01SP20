@@ -1,0 +1,54 @@
+[
+    {
+        "categorie": "MSU-2017", 
+        "values": [
+            {
+                "value": 8, 
+                "rate": "male"
+            }, 
+            {
+                "value": 2, 
+                "rate": "female"
+            }
+        ]
+    }, 
+    {
+        "categorie": "UOS-2017", 
+        "values": [
+            {
+                "value": 10, 
+                "rate": "male"
+            }, 
+            {
+                "value": 0, 
+                "rate": "female"
+            }
+        ]
+    },
+    {
+        "categorie": "MSU-2020", 
+        "values": [
+            {
+                "value": 5, 
+                "rate": "female"
+            }, 
+            {
+                "value": 3, 
+                "rate": "male"
+            }
+        ]
+    },
+    {
+        "categorie": "UOS-2020", 
+        "values": [
+            {
+                "value": 1, 
+                "rate": "female"
+            }, 
+            {
+                "value": 9, 
+                "rate": "male"
+            }
+        ]
+    }
+]

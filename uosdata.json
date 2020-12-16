@@ -1,0 +1,93 @@
+{
+    "name": "University of Seoul",
+    "link":"https://www.uos.ac.kr/main.do?epTicket=INV",
+    "img": "media/uosdata/uoslogo.png",
+    "children": [
+     {
+      "name": "Germany",
+      "children": [
+       {
+         "hero": "Carl Schmitt",
+         "name": "Gender : Male / Nationality : Germany", 
+         "link": "https://en.wikipedia.org/wiki/Carl_Schmitt",
+         "img":  "media/uosdata/schmitt.png",
+         "size": 40000
+       },
+       {
+         "hero": "Walter Benjamin",
+         "name": "Gender : Male / Nationality : Germany", 
+         "link": "https://en.wikipedia.org/wiki/Walter_Benjamin",
+         "img":  "media/uosdata/benjamin.png",
+         "size": 40000
+       },
+       {
+         "hero": "Theodor Adorno", 
+         "name": "Gender : Male / Nationality : Germany",
+         "link": "https://en.wikipedia.org/wiki/Theodor_W._Adorno",
+         "img":  "media/uosdata/adorno.png",
+         "size": 40000
+       },
+       {
+         "hero": "Max Horkheimer", 
+         "name": "Gender : Male / Nationality : Germany",
+         "link": "https://en.wikipedia.org/wiki/Max_Horkheimer",
+         "img":  "media/uosdata/horkheimer.png",
+         "size": 40000
+       },
+       {
+         "hero": "Hannah Arendt", 
+         "name": "Gender : Female / Nationality : Germany",
+         "link": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+         "img":  "media/uosdata/arendt.png",
+         "size": 40000
+       }
+     ]
+     },
+     {
+      "name": "Italy",
+      "children": [
+       {
+         "hero": "Giorgio Agamben",
+         "name": "Gender : Male / Nationality : Italy", 
+         "link": "https://en.wikipedia.org/wiki/Giorgio_Agamben",
+         "img":  "media/uosdata/agamben.png",
+         "size": 40000
+       }
+      ]
+     },
+     {
+      "name": "France",
+      "children": [
+       {
+         "hero": "Louis Althusser",
+         "name": "Gender : Male / Nationality : France", 
+         "link": "https://en.wikipedia.org/wiki/Louis_Althusser",
+         "img":  "media/uosdata/althuseer.png",
+         "size": 40000
+       },
+       {
+         "hero": "Michel Foucault",
+         "name": "Gender : Male / Nationality : France", 
+         "link": "https://en.wikipedia.org/wiki/Michel_Foucault",
+         "img":  "media/uosdata/foucault.png",
+         "size": 40000
+       },
+       {
+         "hero": "Étienne Balibar",
+         "name": "Gender : Male / Nationality : France", 
+         "link": "https://en.wikipedia.org/wiki/%C3%89tienne_Balibar",
+         "img":  "media/uosdata/balibar.png",
+         "size": 40000
+       },
+       {
+         "hero": "jacques Rancière",
+         "name": "Gender : Male / Nationality : France", 
+         "link": "https://en.wikipedia.org/wiki/Jacques_Ranci%C3%A8re",
+         "img":  "media/uosdata/rancière.png",
+         "size": 40000
+       }
+      ]
+     }  
+    ]
+   }
+   

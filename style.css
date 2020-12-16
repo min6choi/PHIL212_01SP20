@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+
+/*this is for index */
+#fullVideo {
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  white-space: nowrap;
+  position: fixed;
+  top: 170px;
+  left: 430px;
+  color: #FEFEFE;
+  width: 50%;
+  text-align: right;
+  font-size: 15px;
+  font-family: 'Noto Sans KR';
+  letter-spacing: 0.4em;
+  margin: 10 auto;
+}
+
+.content-h3 {
+  white-space: nowrap;
+  position: fixed;
+  top: 210px;
+  left: 430px;
+  color: #FEFEFE;
+  width: 50%;
+  text-align: right;
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0.6em;
+  margin: 10 auto;
+}
+
+.content-h4{
+  white-space: nowrap;
+  position: fixed;
+  top: 250px;
+  left: 430px;
+  color: #FEFEFE;
+  width: 50%;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0.4em;
+  margin: 10 auto;
+}
+ 
+a:link{
+  color: #FEFEFE;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #FEFEFE;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #FDBA00;
+  background-color: transparent;
+}
+
+a:active {
+  color: #FEFEFE;
+  background-color: transparent;
+}
+
+
+/*this is for intro */
+
+#fullVideo2 {
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+label.title {
+  position: fixed;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  left: 450px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0.2em;
+  color: #FEFEFE;
+ }
+
+.first-sub-contents {
+  position: fixed;
+  padding-top: 150px;
+  padding-left: 450px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.fsc-right {
+  color: #FEFEFE;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+}
+
+.r-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0em;
+}
+
+.r-main {
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 5px;
+  font-size: 11px;
+  letter-spacing: 0em;
+}
+
+.intro{
+  position: fixed;
+  padding-left: 217px;
+  color: #FEFEFE;
+  left: 220px;
+  bottom: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0.4em;
+  margin: 10 auto;
+}
+
+
+
+/* this is for graphy */
+body {
+    font: 12px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+
+
+
+/* This is for chart part content */
+   label.title2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 450px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.2em;
+    color: #21140b;
+   }
+
+.back {
+  white-space: nowrap;
+  position: fixed;
+  top: 250px;
+  left: 430px;
+  color: #7e1616;
+  width: 50%;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0.4em;
+  margin: 10 auto;
+}
+
+.chart-content{  
+    font-family: 'DM Mono', monospace;
+    text-anchor:middle;
+    padding-left: 340px;
+    padding-right: 350px;
+  }
+  
+  .subtitle {
+    display: flex;
+    justify-content: left;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Alike Angular', serif;
+    color: #262626;
+  
+  }
+
+  
+  .maincontent {
+    font-size: 15px;
+    padding-left: 6px;
+    font-family: 'Alike Angular', serif;
+    color: #262626;
+    letter-spacing: 0.1em;
+    line-height: 28px;
+    padding-bottom: 10px;
+  }
+  
+  .subcontent {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Alike Angular', serif;
+    color: #262626;
+  }
+  

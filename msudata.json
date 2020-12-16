@@ -1,0 +1,92 @@
+{
+  "name": "Montclair State University",
+  "link":"https://www.montclair.edu/",
+  "img": "media/msudata/montclairlogo.png",
+  "children": [
+   {
+    "name": "America",
+    "children": [
+     {
+      "name": "United State",
+      "children": [
+       {
+         "hero": "Susan Sontag",
+         "name": "Gender : Female / Nationality : United State", 
+         "link": "https://en.wikipedia.org/wiki/Susan_Sontag",
+         "img":  "media/msudata/sontag.png",
+         "size": 40000
+       },
+       {
+        "hero": "Judith Butler",
+        "name": "Gender : Female / Nationality : United State", 
+        "link": "https://en.wikipedia.org/wiki/Judith_Butler",
+        "img":  "media/msudata/butler.png",
+        "size": 40000
+      }
+      ]
+     },
+     {
+      "name": "Jameica",
+      "children": [
+       {
+         "hero": "Charles Mills",
+         "name": "Gender : Male / Nationality : Jameica", 
+         "link": "https://en.wikipedia.org/wiki/Charles_W._Mills",
+         "img":  "media/msudata/mills.png",
+         "size": 40000
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Europe",
+    "children": [
+     {
+      "name": "United Kindom",
+      "children": [
+       {
+         "hero": "Thomas Hobbes",
+         "name": "Gender : Male / Nationality : United Kingdom", 
+         "link": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+         "img":  "media/msudata/hobbes.png",
+         "size": 40000
+       },
+       {
+        "hero": "Carole Pateman",
+        "name": "Gender : Female / Nationality : United Kingdom", 
+        "link": "https://en.wikipedia.org/wiki/Carole_Pateman",
+        "img":  "media/msudata/pateman.png",
+        "size": 40000
+      }
+      ]
+     },
+     {
+      "name": "Germany",
+      "children": [
+       {
+         "hero": "Hannah Arendt",
+         "name": "Gender : Female / Nationality : Germany", 
+         "link": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+         "img":  "media/msudata/arendt.png",
+         "size": 40000
+       }
+      ]
+     },
+     {
+      "name": "France",
+      "children": [
+       {
+         "hero": "Michel Foucault",
+         "name": "Gender : Male / Nationality : France", 
+         "link": "https://en.wikipedia.org/wiki/Michel_Foucault",
+         "img":  "media/uosdata/foucault.png",
+         "size": 40000
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+ 
