@@ -97,15 +97,15 @@ label.title {
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 40px;
-  left: 450px;
+  left: 400px;
   font-family: 'Noto Sans KR', sans-serif;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.4em;
   color: #FEFEFE;
  }
 
 .first-sub-contents {
   position: fixed;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 450px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -114,7 +114,7 @@ label.title {
 .fsc-right {
   color: #FEFEFE;
   letter-spacing: 0.03em;
-  line-height: 25px;
+  line-height: 23px;
 }
 
 .r-title {
@@ -137,7 +137,7 @@ label.title {
   padding-left: 217px;
   color: #FEFEFE;
   left: 220px;
-  bottom: 80px;
+  bottom: 40px;
   text-align: center;
   font-size: 12px;
   font-family: 'Noto Sans KR', sans-serif;
