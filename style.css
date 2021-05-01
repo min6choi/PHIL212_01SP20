@@ -1,147 +1,24 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
-
-/*this is for index */
-
-
-label.title {
-  position: fixed;
-  font-size: 50px;
-  width: 100%;
-  padding-top: 10px;
-  text-align: center;
-  font-family: 'Alike Angular';
-  letter-spacing: 0.1em;
-  color: #343434;
- }
-
-.first-sub-contents {
-  position: fixed;
-  padding-top: 125px;
-  padding-left: 450px;
-  padding-right: 30px;
-  padding-bottom: 20px;
+:root {
+  /* color */
+  --white-color: #f2ecd6;
+  --black-colof: #100a14;
+  --red-color: #7e1616;
+  --blue-color: #21140b;
+  --yellow-color: #e5c51b;
 }
 
-.fsc-right {
-  color: #343434;
-  letter-spacing: 0.03em;
-  line-height: 23px;
-}
-
-.r-title {
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 13px;
-  letter-spacing: 0em;
-}
-
-.r-main {
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-bottom: 5px;
-  font-size: 11px;
-  letter-spacing: 0em;
-}
-
-.index{
-  position: fixed;
-  padding-left: 217px;
-  color: #343434;
-  left: 220px;
-  bottom: 40px;
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Noto Sans KR', sans-serif;
-  letter-spacing: 0.4em;
-  margin: 10 auto;
-}
-
-
-
-/* this is for graphy */
 body {
-    font: 12px sans-serif;
-  }
-  
-  .axis path,
-  .axis line {
-    fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
-  }
-  
-  .x.axis path {
-    display: none;
-  }
-
-
-
-/* This is for chart part content */
-   label.title2 {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    left: 450px;
-    font-family: 'Noto Sans KR', sans-serif;
-    letter-spacing: 0.2em;
-    color: #21140b;
-   }
-
-.back {
-  white-space: nowrap;
-  position: fixed;
-  top: 250px;
-  left: 430px;
-  color: #7e1616;
-  width: 50%;
-  text-align: right;
-  font-size: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
-  letter-spacing: 0.4em;
-  margin: 10 auto;
+  background-color: var(--white-color);
 }
 
-.chart-content{  
-    font-family: 'DM Mono', monospace;
-    text-anchor:middle;
-    padding-left: 340px;
-    padding-right: 350px;
-  }
-  
-  .subtitle {
-    display: flex;
-    justify-content: left;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    font-size: 17px;
-    font-family: 'Alike Angular', serif;
-    color: #262626;
-  
-  }
+.main {
 
-  
-  .maincontent {
-    font-size: 15px;
-    padding-left: 6px;
-    font-family: 'Alike Angular', serif;
-    color: #262626;
-    letter-spacing: 0.1em;
-    line-height: 28px;
-    padding-bottom: 10px;
-  }
-  
-  .subcontent {
-    font-size: 13px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    font-family: 'Alike Angular', serif;
-    color: #262626;
-  }
-  
+}
+
+.top-menu {
+  display: flex;
+}
+
+.bottom-menu {
+  display: flex;
+}
