@@ -41,6 +41,7 @@ body {
   border-top: 2px solid var(--black-color); 
   left: 0;
   right: 0;
+  bottom: 0;
 
   height: 30px;
   padding: 1rem;
