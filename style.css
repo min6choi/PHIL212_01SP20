@@ -26,19 +26,15 @@ body {
   color: #343434;
   font-size: 25px;
   font-weight: 550;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .introduction {
-  margin-top: 200px;
-  margin-left: 300px;
-  margin-right: 300px;
-
+  padding: 200px;
 }
 
 .bottom-menu {
-  margin-top: 300px;
   display: flex;
   background-color: var(--white-color);
   position: fixed;
@@ -51,6 +47,6 @@ body {
   color: #343434;
   font-size: 25px;
   font-weight: 550;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
