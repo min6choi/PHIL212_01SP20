@@ -1,14 +1,30 @@
 :root {
   /* color */
-  --white-color: #f2ecd6;
-  --black-color: #100a14;
+  --white-color: #F2F2F2;
+  --black-color: #191A23;
   --red-color: #7e1616;
-  --blue-color: #21140b;
-  --yellow-color: #e5c51b;
+  --blue-color: #031BFF;
+  /*not decided color*/
+  --yellow-color: #FDBA00;
 }
 
 body {
   background-color: var(--white-color);
+}
+
+/*link text color*/
+a:link {
+  color : var(--black-color);
+  text-decoration: none;
+}
+a:visited {
+  color : var(--black-color);
+}
+a:hover {
+  color : var(--yellow-color);
+}
+a:active {
+  color : var(--yellow-color);
 }
 
 
@@ -51,3 +67,6 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+
+
