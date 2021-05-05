@@ -4,12 +4,13 @@
   --black-color: #191A23;
   --red-color: #7e1616;
   --blue-color: #031BFF;
-  /*not decided color*/
   --yellow-color: #FDBA00;
 }
 
+
 body {
   background-color: var(--white-color);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*link text color*/
