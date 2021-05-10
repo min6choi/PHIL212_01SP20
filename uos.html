@@ -3,25 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>UOS 2020-2</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
-      body {font-family: "Noto Sans KR", sans-serif; line-height: 160%; font-size: 16px;  margin: 0; }
-      path.link {
-        fill: none;
-        stroke-width: 2px;
-      }
-      .node:not(:hover) .nodetext {
-        display: none;
-      }
-      h1 { color: #FDBA00; font-size: 30px; margin: 10px 0; text-transform: uppercase; font-weight: normal; letter-spacing: 0.2em;}
-      h2, h3 { font-size: 18px; margin: 5px 0 ; font-weight: normal;}
+     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+      h1 { color: #FDBA00; font-family: 'Roboto', sans-serif !important; font-size: 20px; padding-top: 45px; text-transform: uppercase; letter-spacing: 0.1em;}
+      h2, h3 { font-family: 'Roboto', sans-serif !important; font-size: 15px; margin: 3px 0 ; font-weight: normal;}
+
       header {padding: 20px; position: absolute; top: 0; left: 0;}
-      a:link { color: #0b4d9a; text-decoration: none;}
-      a:visited { color: #0b4d9a; }
-      a:hover { color: #FDBA00; text-decoration: underline;}
-      a:active { color: #0b4d9a; }
+
+      path.link {
+      fill: none;
+      stroke-width: 1.5px;
+    }
+    .node:not(:hover) .nodetext {
+      display: none;
+    }
     </style>
 </head>
     
@@ -32,6 +30,26 @@
       <h2>Instructor: Sangwon Han</h2>
       <h3>Click for their wiki page</h3>
     </header>
+    <div class="top-menu">
+      <div class="home">
+        <a href="index.html">home</a>
+      </div>
+      <div class="gender">
+        <a href="gender.html">gender</a>
+      </div>
+      <div class="nationality">
+        <a href="nationality.html">nationality</a>
+      </div>
+    </div>
+
+    <div class="bottom-menu">
+      <div class="montclair">
+        <a href="msu.html">montclair</a>
+      </div>
+      <div class="seoul">
+        <a href="uos.html">seoul</a>
+      </div>
+    </div>
     <!-- container for force layout visualisation  -->
     <section id="vis"></section> 
 <script>
@@ -41,7 +59,7 @@
 
 // rest of vars
 var w = 1500,
-    h = 720,
+    h = 645,
     maxNodeSize = 50,
     x_browser = 20,
     y_browser = 25,
@@ -97,7 +115,8 @@ function update() {
     path.enter().insert("svg:path")
       .attr("class", "link")
       // .attr("marker-end", "url(#end)")
-      .style("stroke", "#eee");
+      // 맵 연결선 색상
+      .style("stroke", "#45464A");
  
  
   // Exit any old paths.
@@ -120,7 +139,8 @@ function update() {
   // Append a circle
   nodeEnter.append("svg:circle")
       .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
-      .style("fill", "#eee");
+      //맵 연결선 색상
+      .style("fill", "#45464A");
  
    
   // Append images
@@ -243,3 +263,6 @@ function flatten(root) {
   
   
 </script>
+
+</body>
+</html>

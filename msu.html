@@ -7,14 +7,15 @@
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 </head>
 <style>
-  h1 { color: #FDBA00; font-size: 25px; padding-top:50px; text-transform: uppercase; font-weight: normal; letter-spacing: 0.1em;}
-  h2, h3 { font-size: 18px; margin: 5px 0 ; font-weight: normal;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+      h1 { color: #FDBA00; font-family: 'Roboto', sans-serif !important; font-size: 20px; padding-top: 45px; text-transform: uppercase; letter-spacing: 0.1em;}
+      h2, h3 { font-family: 'Roboto', sans-serif !important; font-size: 15px; margin: 3px 0 ; font-weight: normal;}
 
-  header {padding: 10px; position: absolute; top: 0; left: 0;}
+  header {padding: 20px; position: absolute; top: 0; left: 0;}
 
   path.link {
   fill: none;
-  stroke-width: 2px;
+  stroke-width: 1.5px;
 }
 .node:not(:hover) .nodetext {
   display: none;
@@ -112,7 +113,7 @@ function update() {
       .attr("class", "link")
       // .attr("marker-end", "url(#end)")
       // 맵 연결선 색상
-      .style("stroke", "#191A23");
+      .style("stroke", "#45464A");
  
  
   // Exit any old paths.
@@ -136,7 +137,7 @@ function update() {
   nodeEnter.append("svg:circle")
       .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
       //맵 연결선 색상
-      .style("fill", "#191A23");
+      .style("fill", "#45464A");
  
    
   // Append images

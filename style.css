@@ -2,7 +2,6 @@
   /* color */
   --white-color: #F2F2F2;
   --black-color: #191A23;
-  --red-color: #7e1616;
   --blue-color: #031BFF;
   --yellow-color: #FDBA00;
 }
@@ -172,6 +171,13 @@ p::selection {
   -webkit-transition: 0.5s all ease 0s;
   -moz-transition: 0.5s all ease 0s;
   -ms-transition: 0.5s all ease 0s;
+}
+
+@media screen and (max-width: 800px) {
+  .introduction {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 
