@@ -9,7 +9,6 @@
 
 body {
   background-color: var(--white-color);
-  font-family: 'Times New Roman', Times, serif;
 }
 
 /*link text color*/
@@ -21,10 +20,10 @@ a:visited {
   color : var(--black-color);
 }
 a:hover {
-  color : var(--yellow-color);
+  color : var(--blue-color);
 }
 a:active {
-  color : var(--yellow-color);
+  color : var(--blue-color);
 }
 
 /* select text color */
@@ -46,6 +45,7 @@ p::selection {
   height: 30px;
   padding: 1rem;
   color: var(--black-color);
+  font-family: 'Times New Roman', Times, serif !important;
   font-size: 25px;
   font-weight: 550;
   justify-content: space-around;
@@ -129,6 +129,7 @@ p::selection {
   height: 30px;
   padding: 1rem;
   color: var(--black-color);
+  font-family: 'Times New Roman', Times, serif !important;
   font-size: 25px;
   font-weight: 550;
   justify-content: space-around;

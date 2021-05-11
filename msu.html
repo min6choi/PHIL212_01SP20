@@ -9,9 +9,11 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
       h1 { color: #FDBA00; font-family: 'Roboto', sans-serif !important; font-size: 20px; padding-top: 45px; text-transform: uppercase; letter-spacing: 0.1em;}
-      h2, h3 { font-family: 'Roboto', sans-serif !important; font-size: 15px; margin: 3px 0 ; font-weight: normal;}
+      h2, h3 { color:#191A23; font-family: 'Roboto', sans-serif !important; font-size: 17px; margin: 2px 0 ; font-weight: normal;}
 
   header {padding: 20px; position: absolute; top: 0; left: 0;}
+
+  body {font-family: 'Roboto', sans-serif;}
 
   path.link {
   fill: none;
@@ -182,7 +184,10 @@ function update() {
       .attr("x", x_browser)
       .attr("y", y_browser +15)
       .attr("fill", tcBlack)
-      .text(function(d) { return d.hero; });
+      .text(function(d) { return d.hero; })
+      // add text color 
+      .style("fill", "#FDBA00")
+      
  
  
   // Exit any old nodes.
