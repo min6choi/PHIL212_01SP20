@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <meta charset="utf-8">
 <title>gender chart</title>
 <head>
@@ -30,9 +31,9 @@
     </div>
 
  <script>
-    var margin = {top: 130, right: 10, bottom: 100, left: 360},
+    var margin = {top: 150, right: 10, bottom: 45, left: 360},
     width = 1080 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+    height = 450 - margin.top - margin.bottom;
     
     var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -142,4 +143,15 @@
     });
 
   </script>
+  <div class="text">
+    The first is the gender graph. The philosophers I learned in class were graphed by gender. Yellow is a 
+    male philosopher and green is a female philosopher.
+    Visually, the difference I felt was clearly expressed through this graph. If you look at the Montclair 
+    University 2020 graph, you can see that the number of female philosophers is more than half compared to other
+    classes.
+    On the other hand, if you look at the graph of City University 2017, you can see at a glance that all philosophers
+    in the class are men.
+    The Monclair University 2020 graph shows a distinct difference in that most of the philosophers we learn are men.
+  </div>
 </body>
+</html>

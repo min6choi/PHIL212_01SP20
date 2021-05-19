@@ -115,15 +115,17 @@ p::selection {
 .introduction {
   display: flex;
   padding: 100px;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 25%;
+  padding-right: 25%;
   flex-direction: column;
   text-align: justify;
+  line-height: 21px;
 }
 
 .title {
   font-size: 25px;
   text-align: center;
+  margin-bottom: 22px;
 }
 
 em { text-decoration: var(--yellow-color) wavy 1.5px underline; 
@@ -132,6 +134,16 @@ em { text-decoration: var(--yellow-color) wavy 1.5px underline;
 
 #intro-text {
 
+}
+
+/* top page css */
+.text {
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 30px;
+  text-align: justify;
+  line-height: 25px;
 }
 
 .bottom-menu {
