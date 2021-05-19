@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
 :root {
   /* color */
   --white-color: #F2F2F2;
@@ -37,7 +39,7 @@ p::selection {
   display: flex;
   background-color: var(--white-color);
   position: fixed;
-  border-bottom: 2px solid var(--black-color); 
+  border-bottom: 1.5px solid var(--black-color); 
   top: 0;
   left: 0;
   right: 0;
@@ -45,9 +47,9 @@ p::selection {
   height: 30px;
   padding: 1rem;
   color: var(--black-color);
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: 'Crimson Text', serif !important;
   font-size: 25px;
-  font-weight: 550;
+  text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
   
@@ -111,17 +113,32 @@ p::selection {
 }
 
 .introduction {
-  padding: 130px;
-  padding-left: 25%;
-  padding-right: 25%;
+  display: flex;
+  padding: 100px;
+  padding-left: 30%;
+  padding-right: 30%;
+  flex-direction: column;
   text-align: justify;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+em { text-decoration: var(--yellow-color) wavy 1.5px underline; 
+
+}
+
+#intro-text {
+
 }
 
 .bottom-menu {
   display: flex;
   background-color: var(--white-color);
   position: fixed;
-  border-top: 2px solid var(--black-color); 
+  border-top: 1.5px solid var(--black-color); 
   left: 0;
   right: 0;
   bottom: 0;
@@ -129,9 +146,9 @@ p::selection {
   height: 30px;
   padding: 1rem;
   color: var(--black-color);
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: 'Crimson Text', serif !important;
   font-size: 25px;
-  font-weight: 550;
+  text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
 }
